@@ -8,7 +8,7 @@ import Threads from './components/Threads';
 import ActionsInstructions from './components/ActionsInstructions';
 import { InstructionsActionTypes } from '../../types/types';
 import { reviver } from '../../services/JSONParseRegExReviver';
-const instructionsJson = require('./instructions.json');
+const instructionsJson = require('../../instructions.json');
 
 const Instructions = () => {
     const { dispatch, actions, bot, general } = useContext(InstructionsContext);
