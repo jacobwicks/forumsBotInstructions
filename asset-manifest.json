@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/forumsBotInstructions/static/css/main.f0baed30.chunk.css",
-    "main.js": "/forumsBotInstructions/static/js/main.a49800a6.chunk.js",
-    "main.js.map": "/forumsBotInstructions/static/js/main.a49800a6.chunk.js.map",
+    "main.js": "/forumsBotInstructions/static/js/main.eff7e33e.chunk.js",
+    "main.js.map": "/forumsBotInstructions/static/js/main.eff7e33e.chunk.js.map",
     "runtime-main.js": "/forumsBotInstructions/static/js/runtime-main.92360dd7.js",
     "runtime-main.js.map": "/forumsBotInstructions/static/js/runtime-main.92360dd7.js.map",
     "static/js/2.2952a1d5.chunk.js": "/forumsBotInstructions/static/js/2.2952a1d5.chunk.js",
     "static/js/2.2952a1d5.chunk.js.map": "/forumsBotInstructions/static/js/2.2952a1d5.chunk.js.map",
     "index.html": "/forumsBotInstructions/index.html",
-    "precache-manifest.14d23953ddf8d9b92f5428627c3dd081.js": "/forumsBotInstructions/precache-manifest.14d23953ddf8d9b92f5428627c3dd081.js",
+    "precache-manifest.17f21228b6aa91dff46e229b4e4c1984.js": "/forumsBotInstructions/precache-manifest.17f21228b6aa91dff46e229b4e4c1984.js",
     "service-worker.js": "/forumsBotInstructions/service-worker.js",
     "static/css/main.f0baed30.chunk.css.map": "/forumsBotInstructions/static/css/main.f0baed30.chunk.css.map",
     "static/js/2.2952a1d5.chunk.js.LICENSE.txt": "/forumsBotInstructions/static/js/2.2952a1d5.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.92360dd7.js",
     "static/js/2.2952a1d5.chunk.js",
     "static/css/main.f0baed30.chunk.css",
-    "static/js/main.a49800a6.chunk.js"
+    "static/js/main.eff7e33e.chunk.js"
   ]
 }
