@@ -18,16 +18,16 @@
         "react-dom": "^16.13.1",
         "react-markdown": "^4.3.1",
         "react-scripts": "3.4.1",
-        "react-snap": "^1.23.0",
         "semantic-ui-react": "^0.88.2",
         "typescript": "^3.7.5"
     },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "postbuild": "react-snap",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -43,5 +43,9 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "homepage": "http://jacobwicks.github.io/forumsBotInstructions",
+    "devDependencies": {
+        "gh-pages": "^3.1.0"
     }
 }

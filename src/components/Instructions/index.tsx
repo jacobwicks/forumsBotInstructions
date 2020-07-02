@@ -7,6 +7,7 @@ import User from '../User';
 import Threads from './components/Threads';
 import ActionsInstructions from './components/ActionsInstructions';
 import { InstructionsActionTypes } from '../../types/types';
+import { reviver } from '../../services/JSONParseRegExReviver';
 const instructionsJson = require('./instructions.json');
 
 const Instructions = () => {
@@ -15,7 +16,7 @@ const Instructions = () => {
     useEffect(() => {
         dispatch({
             type: InstructionsActionTypes.setInstructions,
-            instructions: instructionsJson,
+            instructions: JSON.parse(JSON.stringify(instructionsJson), reviver),
         });
     }, [dispatch]);
 
