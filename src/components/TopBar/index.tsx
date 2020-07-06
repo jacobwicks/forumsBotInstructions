@@ -18,7 +18,7 @@ const InstructionsLink = () => (
     </a>
 );
 
-const menuItems = [<Title />].map((element, index) => (
+const menuItems = [<Title />, <InstructionsLink />].map((element, index) => (
     <Menu.Item key={index}>{element}</Menu.Item>
 ));
 
